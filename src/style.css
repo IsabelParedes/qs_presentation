@@ -11,36 +11,38 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #fff;
+  --r-background-color: #dee3ea;
   --r-main-font: Source Sans Pro, Helvetica, sans-serif;
   --r-main-font-size: 42px;
-  --r-main-color: #222;
+  --r-main-color: #171b2c;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
-  --r-heading-color: #222;
+  --r-heading-font: 'Prosto One', 'Source Sans Pro', Helvetica, sans-serif;
+  --r-heading-color: #171b2c;
+  --r-heading-background-color: #171b2c;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: 600;
+  --r-heading-font-weight: 800;
   --r-heading1-text-shadow: none;
   --r-heading1-size: 2.5em;
   --r-heading2-size: 1.6em;
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #2a76dd;
+  --r-link-color: #6fa6ff;
   --r-link-color-dark: rgb(30.7720647773, 99.5566801619, 192.7779352227);
   --r-link-color-hover: rgb(73.95, 138.55, 226.1);
-  --r-selection-background-color: rgb(95.25, 152.25, 229.5);
-  --r-selection-color: #fff;
+  --r-selection-background-color: #f1d371;
+  --r-selection-color: #0f172a;
   --r-overlay-element-bg-color: 0, 0, 0;
   --r-overlay-element-fg-color: 240, 240, 240;
+  --r-accent-color: #fbd967;
 }
 
 .reveal-viewport {
-  background: #fff;
+  background: var(--r-background-color);;
   background-color: var(--r-background-color);
 }
 
@@ -91,6 +93,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal h1 {
   font-size: var(--r-heading1-size);
+  color: white;
 }
 
 .reveal h2 {
@@ -129,8 +132,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
-.reveal video,
-.reveal iframe {
+.reveal video {
   max-width: 95%;
   max-height: 95%;
 }
@@ -158,6 +160,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal ul {
   list-style-type: disc;
+  font-size: 0.7em;
 }
 
 .reveal ul ul {
@@ -355,4 +358,49 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+
+.gif-demo {
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.topic-title {
+    background: #dee3eaee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 3em;
+}
+
+.topic-title h2 {
+    color: black;
+}
+
+div .two-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div .column {
+    width: 42%;
+    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 70%;
+    max-width: 4em;
+    max-height: 4em;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    filter: grayscale(95%);
+}
+
+.jlite-iframe {
+    border: solid green 1px;
+    height: 50vh;
+    max-height: 50vh;
 }
