@@ -9,7 +9,8 @@ Reveal.initialize({
   controls: true,
   progress: true,
   history: true,
-  center: true,
+  center: false,
+  slideNumber: 'c/t',
 
   plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 });
