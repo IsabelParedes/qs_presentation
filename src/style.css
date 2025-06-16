@@ -31,7 +31,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #226CE0;
+  --r-link-color: #C43B0A;
   --r-link-color-dark: #226CE0;
   --r-link-color-hover: rgb(73.95, 138.55, 226.1);
   --r-selection-background-color: #f1d371;
@@ -39,6 +39,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-overlay-element-bg-color: 0, 0, 0;
   --r-overlay-element-fg-color: 240, 240, 240;
   --r-accent-color: #FDE843;
+  --r-bullet-color: #FCA311;
+;
 }
 
 .reveal-viewport {
@@ -190,6 +192,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal ul ul ul {
   list-style-type: circle;
+}
+
+.reveal ul li::marker,
+.reveal ul ul li::marker,
+.reveal ul ul ul li::marker {
+  color: var(--r-bullet-color);
 }
 
 .reveal ul ul,
@@ -487,5 +495,5 @@ div .demo-gif img {
 }
 
 .reveal .controls-arrow {
-    color: #C43B0A;
+    color: var(--r-link-color);
 }
