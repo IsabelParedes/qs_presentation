@@ -436,15 +436,27 @@ div .column img {
 
 }
 
+.jupyter-robot-logo,
 .jupyter-ecosystem-logo {
     position: absolute;
     bottom: 0;
-    left: 20%;
-    height: 40%;
+    left: 15%;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jupyter-ecosystem-logo {
+    height: 40%
+}
+
+.jupyter-robot-logo {
+    height: 50%;
 }
 
 .reveal .slide-number {
     background: none;
-    color: var(--r-link-color);
+    color: var(--r-main-color);
+}
+
+.reveal .controls-arrow {
+    color: #C43B0A;
 }
