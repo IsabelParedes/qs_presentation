@@ -26,7 +26,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading-text-shadow: none;
   --r-heading-font-weight: 800;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 2.5em;
+  --r-heading1-size: 1.3em;
   --r-heading2-size: 1.6em;
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
@@ -104,7 +104,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal h1 {
   font-size: var(--r-heading1-size);
-  color: white;
+  background:#faee84b0;
+  color: black;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-transform: uppercase;
+  margin-top: 2em;
 }
 
 .reveal h2 {
@@ -382,6 +387,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     justify-content: center;
     border-radius: 5px;
     height: 3em;
+    margin-top: 2em;
 }
 
 .topic-title h2 {
@@ -420,6 +426,14 @@ div .column img {
     border: solid green 1px;
     height: 100%;
     max-height: 50vh;
+}
+
+.title-logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+
 }
 
 .jupyter-ecosystem-logo {
