@@ -72,6 +72,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .slides section {
+  border: 2px solid blue;
   height: 100%;
 }
 
@@ -397,13 +398,16 @@ div .two-column {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 2px solid violet;
     min-height: 75%;
 }
 div .column {
     width: 42%;
+    border: solid red 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 div .column img:not(.image-transparent){
@@ -421,6 +425,7 @@ div .column img:not(.image-transparent){
 }
 
 .jlite-iframe {
+    border: solid green 2px;
     height: 70%;
 }
 
@@ -436,10 +441,12 @@ div .demo-gif {
     height: 75%;
     align-items: center;
     justify-content: center;
+    border: solid 2px #C43B0A;
 }
 
 div .demo-gif img {
     height: 85%;
+    border: yellow 2px solid;
     margin-bottom: 0;
 }
 
