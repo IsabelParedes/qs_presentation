@@ -481,16 +481,17 @@ div .demo-gif img {
 .jupyter-ecosystem-logo {
     position: absolute;
     bottom: 0;
-    left: 15%;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .jupyter-ecosystem-logo {
-    height: 40%
+    height: 35%;
+    left: 23%;
 }
 
 .jupyter-robot-logo {
     height: 50%;
+    left: 19%;
 }
 
 .reveal .slide-number {
