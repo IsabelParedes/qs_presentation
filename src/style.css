@@ -400,26 +400,32 @@ div .two-column {
     justify-content: space-around;
     border: 2px solid violet;
     min-height: 75%;
+    max-height: 80%;
 }
-div .column {
+div .column,
+div .column-top-align {
     width: 42%;
     border: solid red 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+div .column {
     justify-content: center;
 }
 
 div .column img:not(.image-transparent){
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    max-height: 80%;
 }
 
 .profile-image {
-    width: 70%;
-    max-width: 4em;
-    max-height: 4em;
+    width: 50%;
+    max-width: 55%;
     border: 3px solid var(--r-main-color);
+    border-radius: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     filter: grayscale(95%);
 }
