@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
     <title>QuantStack</title>
+    <style>
+    </style>
   </head>
   <body>
     <script type="module" src="/src/main.ts"></script>
     <div class="reveal">
-			<div class="slides">
+		<div class="slides">
 
         <section data-background-image="/src/images/abstract_warp.jpg">
           <h1 class="main-title">Evolution of the Jupyter Ecosystem and its Applications in Robotics</h1>
@@ -21,55 +23,200 @@
         </section>
 
         <section class="section-with-footer">
-          <h3>Who are we?</h3>
-          <div class="two-column">
-            <div class="column">
-              <img src="/src/images/Matthias.png" alt="Matthias" class="profile-image">
-              <p><strong>Matthias Meschede</strong></p>
-              <p style="font-size:0.8em;">Chief Operating Officer</p>
-            </div>
-            <div class="column">
-              <img src="/src/images/Isabel.png" alt="Isabel" class="profile-image">
-              <p><strong>Isabel Paredes</strong></p>
-              <p style="font-size:0.8em;">Scientific Software Developer</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-with-footer">
-          <h3>QuantStack</h3>
-          <div class="two-column">
-            <div class="column">
-              <ul>
-                <li>Founded in 20...</li>
-                <li>Open source software development</li>
-                <li>Focus on Jupyter, Python, and C++</li>
-                <li>Contributions to Jupyter ecosystem</li>
-                <li>Community-driven projects</li>
-            </div>
-            <div class="column">
-              <img src="/src/images/team.png" alt="QuantStack Logo" class="logo-image">
+            <h3>Who are we?</h3>
+            <div class="two-column">
+                <div class="column">
+                    <img src="/src/images/Matthias.png" alt="Matthias" class="profile-image">
+                    <p><strong>Matthias Meschede</strong></p>
+                    <p>Chief Operating Officer at QuantStack</p>
+                    <p>Open source contributor, scientific computing specialist</p>
+                </div>
+                <div class="column">
+                    <img src="/src/images/Isabel.png" alt="Isabel" class="profile-image">
+                    <p><strong>Isabel Paredes</strong></p>
+                    <p>Scientific Software Developer at QuantStack</p>
+                    <p>Jupyter ecosystem developer, WebAssembly expert</p>
+                </div>
             </div>
         </section>
 
+        <!-- QuantStack slide -->
         <section class="section-with-footer">
-          <h3>Busine$$$</h3>
+            <h3>QuantStack</h3>
+            <div class="two-column">
+                <div class="column">
+                    <ul>
+                        <li><strong>Founded in 2016</strong> - Leading open source scientific computing company</li>
+                        <li><strong>Core Mission:</strong> Building the future of interactive computing</li>
+                        <li><strong>Key Contributions:</strong> Principal contributor to Jupyter, Apache Arrow, Mamba/Conda</li>
+                        <li><strong>Community-driven:</strong> Multi-stakeholder projects with global impact</li>
+                        <li><strong>Innovation Focus:</strong> WebAssembly, interactive applications, scientific computing</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img src="/src/images/team.png" alt="QuantStack Team" class="logo-image">
+                    <p style="font-size:0.8em; color:#666; margin-top:1rem;">
+                        Empowering scientists and developers worldwide with cutting-edge tools
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section data-background-image="/src/images/abstract_wave.jpg">
-          <div class="topic-title">
-            <h2>Jupyter Ecosystem</h2>
-          </div>
-          <img src="/src/images/jupyter_logo.svg" alt="Jupyter Logo" class="jupyter-ecosystem-logo">
+        <!-- Topic introduction -->
+        <section>
+            <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%;">
+                <h2>The Evolution of Jupyter</h2>
+                <p>From Notebooks to in-Browser UIs</p>
+                <img src="/src/images/jupyter_logo.svg" alt="Jupyter Logo">
+            </div>
+        </section>
+
+        <!-- Jupyter's Origins -->
+        <section class="section-with-footer">
+            <h3>Notebooks: Programming for Everyone</h3>
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <ul>
+                <li style="list-style-type: '💡';padding-inline-start:1ch"  ><strong>Literate programming</strong></li>
+                <li style="list-style-type: '🚪';padding-inline-start:1ch"><strong>Accessible through browser</strong></li>
+                <li style="list-style-type: '🎯';padding-inline-start:1ch"><strong>Interactive</strong></li>
+                <li style="list-style-type: '㊫';padding-inline-start:1ch"><strong>Visual</strong></li>
+                <li style="list-style-type: '🌍';padding-inline-start:1ch"  ><strong>Global impact</strong></li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- Evolution to Framework -->
+        <section class="section-with-footer">
+            <h3>Jupyter's Evolution</h3>
+          
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <ul>
+                <li style="list-style-type: '🖥️';padding-inline-start:1ch">
+                    <strong>1. Full Application Framework</strong>
+                    <p style="font-size:0.9em;">
+                    Jupyter has become a framework to build advanced user interfaces.
+                    </p>
+                </li>
+                <li style="list-style-type: '⚡';padding-inline-start:1ch">
+                    <strong>2. WebAssembly</strong>
+                    <p style="font-size:0.9em;">Browser-only, serverless execution.</p>
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Jupyter as Application Framework</h3>
+
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <ul>
+                <li style="list-style-type: '🌐';padding-inline-start:1ch">
+                    <strong>Integrates with many ("almost all") language ecosystems</strong>
+                    <p style="font-size:0.9em;">
+                    Very generic and standardized interface to language runtimes, called <code>kernels</code>.
+                    Kernels are available for Python, R, Julia, JavaScript, Rust, C++, and many more.
+                    </p>
+                </li>
+                <li style="list-style-type: '📰';padding-inline-start:1ch">
+                    <strong>Browser-first</strong>
+                    <p style="font-size:0.9em;">
+                    The browser is probably the worlds most widely used human/machine interface.
+                    Disadvantages (native execution, GPU) are gradually disappearing.</p>
+                </li>
+                <li style="list-style-type: '🔌';padding-inline-start:1ch">
+                    <strong>Generic UI library</strong>
+                    <p style="font-size:0.9em;">
+                    Modern Jupyter is built on top of a generic UI library that provides tabs, commands, menus,
+                    and everything that you would expect from an IDE-like application.
+                    </p>
+                <li style="list-style-type: '🚀';padding-inline-start:1ch">
+                    <strong>Large UI ecosystem</strong>
+                    <p style="font-size:0.9em;">
+                    Tons of visualizations, extensions available</p>
+                </li>
+                <li style="list-style-type: '👥';padding-inline-start:1ch">
+                    <strong>Huge community</strong>
+                    <p style="font-size:0.9em;">
+                    Active community. Standard that won't go away soon.</p>
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- WebAssembly Revolution -->
+        <section class="section-with-footer">
+            <h3>Jupyter with WebAssembly (JupyterLite)</h3>
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <ul>
+                <li style="list-style-type: '🟢';padding-inline-start:1ch">
+                    <strong>Serverless execution</strong>
+                    <p style="font-size:0.9em;">
+                    Faster, easier to deploy, scaling infinitely, cheaper.
+                    </p>
+                </li>
+                <li style="list-style-type: '🟢';padding-inline-start:1ch">
+                    <strong>Enterprise deployments</strong>
+                    <p style="font-size:0.9em;">
+                    No server, no maintenance, no scaling issues.
+                    No installation.
+                    Built-in security through browser sandboxing.
+                    </p>
+                </li>
+                <li style="list-style-type: '🟢';padding-inline-start:1ch">
+                    <strong>W3 Standard</strong>
+                        <p style="font-size:0.9em;">
+                        WebAssembly is a W3 standard, supported by all major browsers.
+                        It is not going away any time soon.
+                        </p>
+                </li>
+                <li style="list-style-type: '🟠';padding-inline-start:1ch">
+                    <strong>Most languages can compile to WebAssembly now but not all</strong>
+                    <p style="font-size:0.9em;">
+                    Python, Rust, C++, ...
+                    </p>
+                <li style="list-style-type: '🟠';padding-inline-start:1ch">
+                    <strong>Many libraries are available but not all</strong>
+                    <p style="font-size:0.9em;">
+                    See QuantStack's Emscripten-Forge package manager for scientific computing in the browser.
+                    Some libraries are not yet available and difficult to port.
+                    </p>
+                </li>
+                <li style="list-style-type: '🟠';padding-inline-start:1ch">
+                    <strong>Some hardware interfaces are missing</strong>
+                    <p style="font-size:0.9em;">
+                    Bluetooth available. GPU support only through WebGL.
+                    </p>
+                </li>
+                <li style="list-style-type: '🔴';padding-inline-start:1ch">
+                    <strong>Limitation to user hardware</strong>
+                    <p style="font-size:0.9em;">
+                    Server-based Jupyter can go beyond the user hardware, e.g. GPU, TPU, or HPC clusters.
+                    </p>
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- JupyterLite -->
+        <section class="section-with-footer">
+            <h3>JupyterLite: a gateway into serverless interfaces</h3>
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <p>⇥ DEMO</p>
+            <div>
         </section>
 
         <section class="section-with-footer">
-          <h3>More than just Notebooks</h3>
+          <h3>JupyterGIS</h3>
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <p>⇥ DEMO</p>
+            <div>
         </section>
 
-
         <section class="section-with-footer">
-          <h3>JupyterLite</h3>
+          <h3>JupyterCAD</h3>
+            <div style="height:80%;display:flex;justify-content:center;align-items:center">
+            <p>⇥ DEMO</p>
+            <div>
         </section>
 
 <!-- ################################################################################ -->

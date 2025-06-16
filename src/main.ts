@@ -11,7 +11,8 @@ Reveal.initialize({
   history: true,
   center: false,
   slideNumber: 'c/t',
-
+  width: 1920,
+  height: 1080,
   plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 });
 
