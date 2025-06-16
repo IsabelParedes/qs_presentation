@@ -434,6 +434,10 @@ div .column img:not(.image-transparent){
     max-height: 80%;
 }
 
+.column ul {
+    font-size: 1.1em;
+}
+
 .profile-image {
     width: 50%;
     max-width: 55%;
