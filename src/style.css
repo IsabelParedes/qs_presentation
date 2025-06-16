@@ -467,7 +467,11 @@ div .column img:not(.image-transparent){
     bottom: 0;
     left: 760px; /*1920px / 2 - 400px/2*/
     width: 400px;
+}
 
+.end-logo {
+  width: 50%;
+  padding-top: 2em;
 }
 
 div .demo-gif {
