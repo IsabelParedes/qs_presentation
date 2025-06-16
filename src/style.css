@@ -74,7 +74,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .slides section {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   height: 100%;
 }
 
@@ -413,14 +413,14 @@ div .two-column {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 2px solid violet;
+    /*border: 2px solid violet;*/
     min-height: 80%;
     max-height: 85%;
 }
 div .column,
 div .column-top-align {
     width: 42%;
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,10 +443,10 @@ div .column img:not(.image-transparent){
 .profile-image {
     width: 50%;
     max-width: 55%;
-    border: 3px solid var(--r-main-color);
+    border: 3px solid blue;
     border-radius: 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    filter: grayscale(95%);
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    filter: grayscale(60%);
 }
 
 .jlite-iframe {
