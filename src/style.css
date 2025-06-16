@@ -404,11 +404,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .topic-title {
     background: #dee3eaee;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    height: 3em;
     margin-top: 2em;
+    min-height: 2em;
+    padding: 0.5em;
 }
 
 .topic-title h2 {
@@ -437,7 +439,7 @@ div .column {
 }
 
 div .column img:not(.image-transparent){
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
     max-height: 80%;
 }
